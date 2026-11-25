@@ -1,0 +1,27 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Nursery Climate",
+        "description": "Steers the thermostat so the room with this sensor stays inside a temperature band.",
+        "data": {
+          "name": "Name",
+          "sensor": "Room temperature sensor",
+          "climate": "Thermostat"
+        }
+      },
+      "reconfigure": {
+        "title": "Change sensor or thermostat",
+        "description": "Your band, tuning and schedule are kept.",
+        "data": {
+          "sensor": "Room temperature sensor",
+          "climate": "Thermostat"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This sensor is already being controlled.",
+      "reconfigure_successful": "Updated. Control picks up the new entities right away."
+    }
+  }
+}

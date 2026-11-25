@@ -10,10 +10,21 @@ You pick two things: the room's temperature sensor and the thermostat. Everythin
 
 ## Install
 
-1. Copy `custom_components/nursery_climate` into your Home Assistant `config/custom_components/` folder.
-2. Restart Home Assistant.
+### With HACS (recommended)
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=TheDevRo&repository=nursery-climate&category=integration)
+
+1. Click the button above, or in HACS go to **⋮ → Custom repositories**, add `https://github.com/TheDevRo/nursery-climate` with type **Integration**.
+2. Download **Nursery Climate** and restart Home Assistant.
 3. **Settings → Devices & services → Add integration → Nursery Climate**.
 4. Pick a name (for example "Kids Room"), the room temperature sensor and the thermostat.
+
+Updates then show up in HACS.
+
+### Manual
+
+1. Copy `custom_components/nursery_climate` into your Home Assistant `config/custom_components/` folder.
+2. Restart Home Assistant, then add the integration as in steps 3–4 above.
 
 Requires Home Assistant 2025.x or newer. Tested on 2026.10 and 2026.11.
 
